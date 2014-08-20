@@ -14,6 +14,8 @@ $cli set remap.pc_style_copy_paste 1
 /bin/echo -n .
 $cli set remap.pcstyle_close 1
 /bin/echo -n .
+$cli set remap.ksc_shiftSpace2haneng 1
+/bin/echo -n .
 $cli set remap.new_winstyle_no_term 1
 /bin/echo -n .
 $cli set remap.copy_paste_winstyle_new_browser_tab 1
