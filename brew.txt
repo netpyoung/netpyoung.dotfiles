@@ -1,0 +1,17 @@
+brew-cask
+ctags
+go
+macvim
+maven
+mercurial
+neovim
+neovim-dot-app
+nginx
+node
+rust
+sbcl
+the_silver_searcher
+tmux
+tree
+vim
+wget
