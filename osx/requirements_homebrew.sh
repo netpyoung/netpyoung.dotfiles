@@ -23,6 +23,7 @@ brew tap caskroom/versions
 brew install node
 brew install git
 brew install wget
+brew install curl
 
 brew cask install iterm2
 brew cask install atom
@@ -35,6 +36,14 @@ brew cask install alfred
 brew cask install dash
 brew cask install flux
 brew cask install mou
+
+brew install ctags
+brew install neovim
+brew cask install neovim-dot-app
+brew install the_silver_searcher
+brew install tmux
+brew install tree
+
 
 
 # cleanup
