@@ -3,7 +3,7 @@ REM https://chocolatey.org/install
 
 choco install -y git
 choco install -y TortoiseGit
-choco install -y 7zip.commandline
+choco install -y 7zip
 choco install -y curl
 choco install -y wget
 choco install -y ag
