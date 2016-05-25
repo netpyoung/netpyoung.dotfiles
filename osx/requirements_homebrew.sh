@@ -39,7 +39,7 @@ brew cask install mou
 
 brew install ctags
 brew install neovim
-brew cask install neovim-dot-app
+brew install install neovim-dot-app
 brew install the_silver_searcher
 brew install tmux
 brew install tree

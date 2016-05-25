@@ -1,3 +1,38 @@
+OSX
+===
+
+1. prepare Mac OS X
+Install Xcode from the App Store
+Open Xcode's preferences and install the command line tools package (this will also install Git) (on OS X Mavericks you need to run xcode-select --install instead)
+Install http://coderwall.com/p/dlithw (optional)
+
+2. install Homebrew
+
+``` sh
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew install trash && alias rm='trash'
+$ brew upgrade --all
+```
+
+
+3. sh
+$ chsh -s /bin/zsh
+
+
+brew.sh
+http://braumeister.org/
+braumeister.org is an online package browser for Homebrew
+
+
+.alias
+https://github.com/webpro/dotfiles/blob/master/system/.alias
+https://github.com/mathiasbynens/dotfiles/blob/master/.aliases
+
+.exports
+
+
+
+
 # 설치해야될것.
 - 웹브라우져 : [Firefox]
 - 동영상포맷변경 : [HandBrake]
@@ -23,7 +58,7 @@
 
 ``` bash
     curl -L github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-    
+
     vi ~/.zshrc
 
         ZSH_THEME="gallois"
@@ -35,7 +70,7 @@
 
 ```bash
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-    
+
     brew doctor
     brew install mercurial
     brew install vim
