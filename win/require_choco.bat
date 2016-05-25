@@ -4,6 +4,8 @@ REM https://chocolatey.org/install
 choco install -y git
 choco install -y TortoiseGit
 choco install -y 7zip
+choco install -y 7zip.commandline
+choco install -y baretail
 choco install -y curl
 choco install -y wget
 choco install -y ag
@@ -27,11 +29,19 @@ choco install -y emacs64
 choco install -y vim
 choco install -y docker
 choco install -y googlechrome 
-
+choco install -y P4Merge
 choco install -y npm
 choco install -y nodejs
 choco install -y jdk8
-
+choco install -y atom
+choco install -y cpu-z
+choco install -y procmon
+choco install -y wireshark
+choco install -y winscp
+choco install -y putty
+choco install -y filezilla
+choco install -y linqpad4
+choco install -y sysinternals
 REM choco install -y potplayer
 REM choco install -y libreoffice
 choco install -y visualstudio2015community
