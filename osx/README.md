@@ -32,7 +32,7 @@ https://github.com/mathiasbynens/dotfiles/blob/master/.aliases
 
 
 
-
+kakao
 # 설치해야될것.
 - 웹브라우져 : [Firefox]
 - 동영상포맷변경 : [HandBrake]
