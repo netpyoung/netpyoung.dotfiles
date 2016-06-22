@@ -1,0 +1,10 @@
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias rm="rmtrash"
+alias rmdir="rmtrash"
+alias vim="nvim"
+alias vi="nvim"
+
+alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"

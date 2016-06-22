@@ -1,1 +1,10 @@
-a
+export TERM="xterm-256color"
+export RUST_SRC_PATH="$HOME/.rust/src"
+export POSTGRES_PATH="/Applications/Postgres.app/Contents/Versions/latest/bin"
+
+export PATH_RBENV="$HOME/.rbenv/shims"
+export PATH_RVM="$HOME/.rvm/bin"
+export PATH_CARGO="$HOME/.cargo/bin"
+export PATH_PYENV="$HOME/.pyenv/shims"
+export PATH_UNITY="/Applications/Unity5.3.4f1/Unity.app/Contents/MacOS"
+export PATH="$PATH_UNITY:$PATH_PYENV:$PATH_RBENV:$PATH_RVN:$PATH_CARGO:$POSTGRES_PATH:$PATH"
