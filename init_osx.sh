@@ -10,7 +10,6 @@ sh ./osx/osx_defaults.sh
 sh ./osx/osx_update.sh
 sh ./osx/karabiner-import.sh
 
-ln -sv "$GIT_ROOT/.gitconfig" $HOME
 ln -sv "$GIT_ROOT/.vimrc" $HOME
 ln -sv "$GIT_ROOT/.zshrc" $HOME
 ln -sv "$GIT_ROOT/.aliases" $HOME
