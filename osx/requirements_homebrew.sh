@@ -25,7 +25,7 @@ brew install tree
 
 brew install neovim
 brew install neovim-dot-app
-
+brew install axel
 
 ###########################
 # brew cask

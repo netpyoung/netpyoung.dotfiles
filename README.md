@@ -1,5 +1,9 @@
 dotfiles
 ========
+#TODO
+* https://github.com/Homebrew/homebrew-bundle
+* https://github.com/mimul/dotfiles
+* https://github.com/mimul/dev-environment/blob/master/mac-git.md
 
 
 ## zsh
@@ -37,4 +41,5 @@ inputrc
 
 
 # REF
-https://github.com/webpro/awesome-dotfiles
+* https://github.com/webpro/awesome-dotfiles
+* https://github.com/mimul/dotfiles
