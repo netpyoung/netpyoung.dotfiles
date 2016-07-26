@@ -9,6 +9,7 @@ export PATH_RBENV="$HOME/.rbenv/shims"
 export PATH_CARGO="$HOME/.cargo/bin"
 export PATH_PYENV="$HOME/.pyenv/shims"
 export PATH_UNITY="/Applications/Unity5.3.4f1/Unity.app/Contents/MacOS"
-export PATH="$UNITY_FPATH:$GOROOT/bin:$GOPATH/bin:$PATH_UNITY:$PATH_PYENV:$PATH_RBENV:$PATH_CARGO:$POSTGRES_PATH:$PATH"
+export PATH_ADB="$HOME/android-sdk-macosx/platform-tools"
+export PATH="$PATH_ADB:$UNITY_FPATH:$GOROOT/bin:$GOPATH/bin:$PATH_UNITY:$PATH_PYENV:$PATH_RBENV:$PATH_CARGO:$POSTGRES_PATH:$PATH"
 
 export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/lib"
