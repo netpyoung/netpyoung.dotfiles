@@ -2,7 +2,7 @@
 	name = netpyoung
 	email = netpyoung@gmail.com
 [core]
-	excludesfile = /Users/pyoung/.gitignore_global
+	excludesfile = ~/.gitignore_global
     editor = ~/Applications/Emacs.app/Contents/MacOS/Emacs
 
 [difftool "sourcetree"]
@@ -53,3 +53,5 @@
 	required = true
 [credential]
 	eraseosxkeychain = true
+[commit]
+	template = ~/.stCommitMsg
