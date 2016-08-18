@@ -18,3 +18,5 @@ ln -sv "$GIT_ROOT/.tmux.conf" $HOME
 ln -sv "$GIT_ROOT/.gitconfig" $HOME
 ln -sv "$GIT_ROOT/.gitignore_global" $HOME
 
+chsh -s $(which zsh)
+rm ~/.bash_history
