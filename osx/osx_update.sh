@@ -10,5 +10,5 @@ npm install npm -g
 npm update -g
 
 # Update Ruby & gems
-sudo gem update —system
-sudo gem update
+#sudo gem update —system
+#sudo gem update

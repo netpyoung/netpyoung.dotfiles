@@ -24,6 +24,7 @@ brew install tmux
 brew install tree
 
 brew install neovim/neovim/neovim
+brew install emacs --with-cocoa --with-gnutls
 brew install axel
 
 ###########################
@@ -43,17 +44,16 @@ brew cask install the-unarchiver
 brew cask install quicksilver
 
 # editor
-brew cask install emacs
-brew cask install atom
-brew cask install visual-studio-code
+#brew cask install atom
+#brew cask install visual-studio-code
 
 brew cask install qbittorrent
 brew cask install mplayerx
 brew cask install sqlitebrowser
-brew cask install texturepacker
+#brew cask install texturepacker
 brew cask install slack
 brew cask install dropbox
-brew cask install teamviewer
+#brew cask install teamviewer
 brew cask install libreoffice
 brew cask install p4merge
 brew cask install android-file-transfer
