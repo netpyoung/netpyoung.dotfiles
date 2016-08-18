@@ -2,8 +2,6 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-alias rm="rmtrash"
-alias rmdir="rmtrash"
 alias vim="nvim"
 alias vi="nvim"
 
