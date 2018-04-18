@@ -1,5 +1,17 @@
 dotfiles
 ========
+
+# QuickRun
+
+## Windows
+
+## OSX
+## Ubuntu
+
+
+
+
+
 #TODO
 * https://github.com/Homebrew/homebrew-bundle
 * https://github.com/mimul/dotfiles
@@ -20,14 +32,12 @@ dotfiles
 
 # web browser
 * Firefox
+    - Checker Plus for Gmail << recommand
+    - Gesturefy
+    - Always On Top
     - Adblock Plus
-    - Add to Search Bar
-    - All-in-One Sidebar
-    - FireGestures
-    - Omnibar
-    - Speed Dial
-    - Flash Video Downloader
-    - Firemacs - 노트북전용
+    - Easy Youtube Video Downloader Express
+
 * Chrome
     - LivePage
     - BuildReactor

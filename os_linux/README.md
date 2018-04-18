@@ -1,3 +1,11 @@
+Linux
+=====
+
+# TODO
+* [ ] cleanup
+* [ ] try to using linux T_T;;;
+
+
 
  http://linuxbrew.sh
 
