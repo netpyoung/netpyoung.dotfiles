@@ -7,6 +7,14 @@ OSX
 * [ ] all-in one file for setting.
 
 
+
+
+## zsh
+* antigen - A plugin manager for zsh, inspired by oh-my-zsh and vundle.
+    - http://antigen.sharats.me/
+
+
+
 ## 1. prepare Mac OS X
 Install Xcode from the App Store
 Open Xcode's preferences and install the command line tools package (this will also install Git) (on OS X Mavericks you need to run xcode-select --install instead)

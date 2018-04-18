@@ -8,6 +8,21 @@ Windows
 * [ ] font.
 
 
+# web browser
+* Firefox
+    - Checker Plus for Gmail << recommand
+    - Gesturefy
+    - Always On Top
+    - Adblock Plus
+    - Easy Youtube Video Downloader Express
+
+* Chrome
+    - LivePage
+    - BuildReactor
+    - ClojureScript REPL
+
+
+
 ## Package Manager
 * scoop based - http://scoop.sh/
 
