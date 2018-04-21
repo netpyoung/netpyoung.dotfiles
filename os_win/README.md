@@ -26,8 +26,12 @@ Windows
 ## Package Manager
 * scoop based - http://scoop.sh/
 
-## Emacs
-* https://github.com/m-parashar/emax64
+# program
+* [emax64](https://github.com/m-parashar/emax64)
+* [3RVX](https://3rvx.com/)
+* qbittorent
+* vlc
+* wox
 
 
 ## git setting
@@ -47,9 +51,3 @@ Windows
 * 나눔고딕: http://dev.naver.com/projects/nanumfont/download
 * Bitstream Vera Sans Mono: http://www.dafont.com/bitstream-vera-mono.font
 * Bitstream Vera Sans Mono + 맑은고딕: http://chan7ee.tistory.com/165
-
-
-# VisualStudio
-* svn
-    - http://tortoisesvn.net/visualstudio.html
-    - https://ankhsvn.open.collab.net/

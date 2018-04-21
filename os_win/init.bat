@@ -1,3 +1,7 @@
+rem deprecated - it will be replace by scoop
+rem replace ps1(powershell)
+
+
 REM https://chocolatey.org/install
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
@@ -25,7 +29,7 @@ choco install -y ruby
 choco install -y honeyview
 choco install -y ccleaner
 choco install -y Firefox
-choco install -y emacs64
+rem choco install -y emacs64
 choco install -y vim
 choco install -y docker
 choco install -y googlechrome 

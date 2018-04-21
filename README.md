@@ -4,10 +4,13 @@ dotfiles
 
 # QuickRun
 
-## Windows
+## Windows(WIP)
+
+* powershell
 
 ```
-https://github.com/netpyoung/netpyoung.dotfiles/raw/master/os_win/init.bat
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+iex (new-object net.webclient).downloadstring('https://github.com/netpyoung/netpyoung.dotfiles/raw/master/os_win/init.ps1)
 ```
 
 ## OSX
