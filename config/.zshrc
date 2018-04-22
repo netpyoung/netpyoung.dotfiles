@@ -5,7 +5,7 @@ unsetopt nomatch
 # ====================
 if [[ ! -f $HOME/utils/antigen/antigen.zsh ]]; then
     mkdir -p $HOME/utils/antigen/
-    curl -L https://raw.githubusercontent.com/zsh-users/antigen/master/antigen.zsh > $HOME/utils/antigen/antigen.zsh
+    curl -L git.io/antigen > $HOME/utils/antigen/antigen.zsh
 fi
 
 source $HOME/utils/antigen/antigen.zsh
