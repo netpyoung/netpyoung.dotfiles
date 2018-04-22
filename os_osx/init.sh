@@ -1,23 +1,35 @@
-GIT_ROOT=`git rev-parse --show-toplevel`
-echo $GIT_ROOT
-cd $GIT_ROOT
+GIT_ROOT=$HOME/dotfiles
+echo $ROOT
 
-if [ ! -f /usr/local/bin/brew ]; then
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+git clone https://github.com/netpyoung/netpyoung.dotfiles.git $ROOT
 
-sh ./os_osx/requirements_homebrew.sh
-sh ./os_osx/osx_defaults.sh
-sh ./os_osx/osx_update.sh
-sh ./os_osx/karabiner-import.sh
+# homebrew
+sh $ROOT/os_osx/init_homebrew.sh
 
-ln -sv "$GIT_ROOT/config/.vimrc" $HOME
-ln -sv "$GIT_ROOT/config/.zshrc" $HOME
-ln -sv "$GIT_ROOT/config/.aliases" $HOME
-ln -sv "$GIT_ROOT/config/.exports" $HOME
-ln -sv "$GIT_ROOT/config/.tmux.conf" $HOME
-ln -sv "$GIT_ROOT/config/.gitconfig" $HOME
-ln -sv "$GIT_ROOT/config/.gitignore_global" $HOME
+# nvim
+curl -fsSL https://raw.githubusercontent.com/netpyoung/netpyoung.nvim/master/init.sh | sh
+ln -sv "$ROOT/config/.vimrc" $HOME
 
+# default
+sh $ROOT/os_osx/osx_defaults.sh
+
+# keybinding
+sh $ROOT/os_osx/karabiner-import.sh
+
+
+# config
+ln -sv "$ROOT/config/.aliases" $HOME
+ln -sv "$ROOT/config/.exports" $HOME
+ln -sv "$ROOT/config/.tmux.conf" $HOME
+ln -sv "$ROOT/config/.gitconfig" $HOME
+ln -sv "$ROOT/config/.gitignore_global" $HOME
+
+# zsh
+ln -sv "$ROOT/config/.zshrc" $HOME
 chsh -s $(which zsh)
+
+
 rm ~/.bash_history
+
+
+sh $ROOT/os_osx/osx_update.sh

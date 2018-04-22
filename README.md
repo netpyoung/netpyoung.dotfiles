@@ -16,7 +16,7 @@ iex (new-object net.webclient).downloadstring('https://github.com/netpyoung/netp
 ## OSX
 
 ```
-https://github.com/netpyoung/netpyoung.dotfiles/raw/master/os_osx/init.sh
+curl -fsSL https://raw.githubusercontent.com/netpyoung/netpyoung.dotfiles/master/os_osx/init.sh | sh
 ```
 
 ## Linux(Ubuntu)
