@@ -1,4 +1,5 @@
-GIT_ROOT=$HOME/dotfiles
+ROOT=$HOME/dotfiles
+
 echo $ROOT
 
 git clone https://github.com/netpyoung/netpyoung.dotfiles.git $ROOT
