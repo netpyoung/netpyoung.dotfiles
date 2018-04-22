@@ -38,7 +38,6 @@ brew cleanup
 # brew cask
 ###########################
 brew tap caskroom/cask
-brew install brew-cask
 brew tap caskroom/versions
 
 brew cask install iterm2
@@ -49,9 +48,7 @@ brew cask install google-chrome
 brew cask install the-unarchiver
 brew cask install alfred
 # brew cask install quicksilver # -> alfred
-brew cask install sqlitebrowser
 
-brew cask install libreoffice
 brew cask install p4merge
 brew cask install android-file-transfer
 brew cask install disk-inventory-x
@@ -72,6 +69,7 @@ brew cask install atom
 # brew cask install slack
 # brew cask install dropbox
 
+brew cask install libreoffice
 
 # cleanup
 brew cask cleanup
