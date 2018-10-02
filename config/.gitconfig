@@ -2,7 +2,7 @@
 	name = netpyoung
 	email = netpyoung@gmail.com
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/pyoung/.gitignore_global
     editor = ~/Applications/Emacs.app/Contents/MacOS/Emacs
 
 [difftool "sourcetree"]
@@ -20,7 +20,7 @@
     keepBackup = false
 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 
 [color]

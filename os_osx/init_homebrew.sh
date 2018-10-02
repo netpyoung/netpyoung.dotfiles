@@ -33,7 +33,6 @@ brew cleanup
 
 
 
-
 ###########################
 # brew cask
 ###########################
@@ -41,13 +40,12 @@ brew tap caskroom/cask
 brew tap caskroom/versions
 
 brew cask install iterm2
-brew cask install karabiner
+# brew cask install karabiner-elements
 brew cask install caffeine
-# brew cask install firefox # -> chrome
+brew cask install firefox
 brew cask install google-chrome
 brew cask install the-unarchiver
 brew cask install alfred
-# brew cask install quicksilver # -> alfred
 
 brew cask install p4merge
 brew cask install android-file-transfer
@@ -57,19 +55,18 @@ brew cask install time-out
 
 
 # editor
-brew cask install atom
-# brew cask install visual-studio-code
+# brew cask install atom
+brew cask install visual-studio-code
+## NG PlantUML
+## https://marketplace.visualstudio.com/items?itemName=jkeys089.plantuml
 
-# deprecated
-# brew cask install dash
-# brew cask install flux
+
 # brew cask install qbittorrent
 # brew cask install texturepacker
 # brew cask install teamviewer
 # brew cask install slack
 # brew cask install dropbox
-
-brew cask install libreoffice
+# brew cask install libreoffice
 
 # cleanup
 brew cask cleanup
