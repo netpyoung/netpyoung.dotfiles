@@ -3,7 +3,7 @@
 	email = netpyoung@gmail.com
 [core]
 	excludesfile = /Users/pyoung/.gitignore_global
-    editor = ~/Applications/Emacs.app/Contents/MacOS/Emacs
+    editor = nvim
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"

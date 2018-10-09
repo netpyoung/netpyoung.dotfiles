@@ -9,3 +9,5 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
 alias start="open"
 alias repl="boot deps repl"
+alias gen-lein="boot -d onetom/boot-lein-generate deps generate"
+alias boot-new="boot -d boot/new new -t app -n "
