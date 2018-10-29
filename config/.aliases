@@ -5,6 +5,8 @@ alias ....="cd ../../.."
 alias vim="nvim"
 alias vi="nvim"
 
+alias ls="exa"
+
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
 alias start="open"

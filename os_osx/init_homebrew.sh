@@ -26,8 +26,13 @@ brew install tmux
 brew install tree
 
 brew install neovim/neovim/neovim
-brew install emacs --with-cocoa --with-gnutls
 brew install axel
+
+brew install fd
+brew install exa
+brew install bat
+
+
 brew cleanup
 
 
@@ -39,6 +44,7 @@ brew cleanup
 brew tap caskroom/cask
 brew tap caskroom/versions
 
+brew cask install emacs
 brew cask install iterm2
 # brew cask install karabiner-elements
 brew cask install caffeine
