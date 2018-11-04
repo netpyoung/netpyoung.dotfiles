@@ -1,8 +1,8 @@
 # requires -v 3
 
-# directory : setup
+# TODO directory : setup
 
-# kdb : setup
+# TODO kdb : setup
 
 # scoop : setup
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
@@ -19,7 +19,7 @@ scoop install emacs
 scoop install baretail
 scoop install everything
 scoop install ConEmu
-scoop install notepadplusplus 
+scoop install notepadplusplus
 scoop install spacesniffer
 scoop install RapidEE
 scoop install ccleaner
@@ -30,7 +30,7 @@ scoop install winscp
 scoop install putty
 scoop install filezilla
 scoop install sysinternals
-scoop install honeyview 
+scoop install honeyview
 
 # == wait....
 # procmon
@@ -38,3 +38,4 @@ scoop install honeyview
 # Astrogrep
 # adobereader
 # Clover
+# TODO: 3rvx

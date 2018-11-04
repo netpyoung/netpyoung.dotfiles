@@ -1,0 +1,109 @@
+* powershell
+
+   https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_requires?view=powershell-6
+
+
+ #+BEGIN_SRC ps1 :tangle init.ps1
+ # requires -v 3
+ #+END_SRC
+
+
+* TODO setting default home directory.
+
+#+BEGIN_SRC ps1 :tangle init.ps1
+# TODO: setx HOME "C:\myHome" /m
+mkdir C:\myHome
+#+END_SRC
+
+* TODO setting kbd
+
+#+BEGIN_SRC ps1 :tangle init.ps1
+# TODO kdb : setup
+#+END_SRC
+
+## 키보드설정(혹시 모르니 kbd-tools에 백업해둠)
+- Han3Tool - http://moogi.new21.org/
+- HanManager.exe - ???
+- cntxt2CapsLock-CapsLock2Ctrl.reg
+  - [[http://hmhm.net/entry/Caps-Lock-swap][Caps Lock 키를 효과적으로 바꾸기(swap)]]
+
+* TODO fonts
+
+
+## 폰트
+- 나눔고딕: http://dev.naver.com/projects/nanumfont/download
+- Bitstream Vera Sans Mono: http://www.dafont.com/bitstream-vera-mono.font
+- Bitstream Vera Sans Mono + 맑은고딕: http://chan7ee.tistory.com/165
+- noto sans cjk kr : https://www.google.com/get/noto/#sans-kore
+
+
+* Scoop
+  - [[http://scoop.sh/][scoop]]
+  - [[https://github.com/lukesampson/scoop/wiki/Chocolatey-Comparison][scoop vs chocolatecy]]
+
+#+BEGIN_SRC ps1 :tangle init.ps1
+# scoop : setup
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+scoop install git
+scoop install gow
+scoop install ag
+scoop install neovim
+scoop install docker
+scoop install nodejs
+
+# == extra
+scoop bucket add extras
+scoop install emacs
+scoop install baretail
+scoop install everything
+scoop install ConEmu
+scoop install notepadplusplus
+scoop install spacesniffer
+scoop install RapidEE
+scoop install ccleaner
+scoop install P4Merge
+scoop install cpu-z
+scoop install wireshark
+scoop install winscp
+scoop install putty
+scoop install filezilla
+scoop install sysinternals
+scoop install honeyview
+#+END_SRC
+
+
+* TODO etc
+# web browser
+- Firefox
+    - Checker Plus for Gmail << recommand
+    - Gesturefy
+    - Always On Top
+    - Adblock Plus
+    - Easy Youtube Video Downloader Express
+
+- Chrome
+    - LivePage
+    - BuildReactor
+    - ClojureScript REPL
+
+# program
+- [[https://3rvx.com/][3RVX]]
+- qbittorent
+- vlc
+- wox
+
+#+BEGIN_SRC ps1 :tangle init.ps1
+# == wait....
+# procmon
+# TortoiseGit
+# Astrogrep
+# adobereader
+# Clover
+# TODO: 3rvx
+#+END_SRC
+
+* TODO git
+## git setting
+- http://guides.beanstalkapp.com/version-control/git-on-windows.html
+- https://gitforwindows.org/
+- https://tortoisegit.org/download/
