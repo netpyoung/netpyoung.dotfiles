@@ -13,3 +13,5 @@ alias start="open"
 alias repl="boot deps repl"
 alias gen-lein="boot -d onetom/boot-lein-generate deps generate"
 alias boot-new="boot -d boot/new new -t app -n "
+
+# https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes

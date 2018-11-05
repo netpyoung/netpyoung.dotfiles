@@ -22,5 +22,11 @@ antigen apply
 # ====================
 [[ -f $HOME/.exports ]] && source $HOME/.exports
 [[ -f $HOME/.aliases ]] && source $HOME/.aliases
-# alias env-dev="source $HOME/prj/bootstrap/docker-env.zsh local"
-source $HOME/prj/bootstrap/docker-env.zsh local
+
+
+# ====================
+# Company
+# ====================
+[[ -f $HOME/.zshrc_company ]] && source $HOME/.zshrc_company
+[[ -f $HOME/.exports_company ]] && source $HOME/.exports_company
+[[ -f $HOME/.aliases_company ]] && source $HOME/.aliases_company
