@@ -8,7 +8,7 @@
 [diff]
 	tool = p4mergetool
 [difftool "p4mergetool"]
-	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge $LOCAL $REMOTE
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -19,10 +19,11 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-
 [mergetool "p4mergetool"]
-    cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$PWD/$BASE\"" "\"$PWD/$REMOTE\"" "\"$PWD/$LOCAL\"" "\"$PWD/$MERGED\""
+    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$REMOTE\" \"$LOCAL\" \"$MERGED\"
 	trustExitCode = false
+    keepTemporaries = false
+    keepBackup = false
 
 [color]
 	ui = auto
