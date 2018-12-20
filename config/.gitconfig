@@ -6,18 +6,23 @@
     editor = nvim
 
 [diff]
-	tool = p4mergetool
-[difftool "p4mergetool"]
-	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge $LOCAL $REMOTE
+	tool = kdiff3
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
+[difftool "p4mergetool"]
+	cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 $LOCAL $REMOTE
+[difftool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge $LOCAL $REMOTE
 
 [merge]
     keepBackup = false
-	tool = p4mergetool
+	tool = kdiff3
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[mergetool "kdiff3"]
+    cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	trustExitCode = true
 [mergetool "p4mergetool"]
     cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$REMOTE\" \"$LOCAL\" \"$MERGED\"
