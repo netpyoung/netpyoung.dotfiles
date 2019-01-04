@@ -8,7 +8,7 @@ export UNITY_FPATH="/Applications/Unity/Unity.app/Contents/MacOS"
 export GOPATH="$HOME/golang"
 export GOROOT="/usr/local/opt/go/libexec"
 
-export BOOT_JVM_OPTIONS="-client -d64 -Xmx4G -Xss16m -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xverify:none -XX:-OmitStackTraceInFastThrow"
+export BOOT_JVM_OPTIONS="-client -d64 -Xmx4G -Xss16m -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xverify:none -XX:-OmitStackTraceInFastThrow -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled"
 
 export PATH="/usr/local/sbin:$PATH"
 export PATH_RBENV="$HOME/.rbenv/shims"
