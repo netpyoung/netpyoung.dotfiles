@@ -53,7 +53,8 @@ brew cask install google-chrome
 brew cask install the-unarchiver
 brew cask install alfred
 
-brew cask install p4merge
+# brew cask install p4merge
+brew cask install kdiff3
 brew cask install android-file-transfer
 brew cask install disk-inventory-x
 brew cask install time-out
