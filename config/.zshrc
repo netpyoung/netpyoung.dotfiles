@@ -38,6 +38,10 @@ antigen apply
 # ====================
 # etc
 # ====================
+# java version manager
+# ref: https://github.com/shyiko/jabba
+[ -s $HOME/.jabba/jabba.sh ] && source $HOME/.jabba/jabba.sh && echo "jabba current" `jabba current`
+
 [[ -f $HOME/.exports ]] && source $HOME/.exports
 [[ -f $HOME/.aliases ]] && source $HOME/.aliases
 
@@ -45,6 +49,6 @@ antigen apply
 # ====================
 # Company
 # ====================
-[[ -f $HOME/.zshrc_company ]] && source $HOME/.zshrc_company
-[[ -f $HOME/.exports_company ]] && source $HOME/.exports_company
-[[ -f $HOME/.aliases_company ]] && source $HOME/.aliases_company
+[[ -f $HOME/.company_zshrc ]] && source $HOME/.company_zshrc
+[[ -f $HOME/.company_exports ]] && source $HOME/.company_exports
+[[ -f $HOME/.company_aliases ]] && source $HOME/.company_aliases

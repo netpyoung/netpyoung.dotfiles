@@ -8,9 +8,7 @@ export UNITY_FPATH="/Applications/Unity/Unity.app/Contents/MacOS"
 export GOPATH="$HOME/golang"
 export GOROOT="/usr/local/opt/go/libexec"
 
-export BOOT_JVM_OPTIONS="-client -d64 -Xmx4G -Xss16m -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xverify:none -XX:-OmitStackTraceInFastThrow -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled"
-
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH_RBENV="$HOME/.rbenv/shims"
 export PATH_CARGO="$HOME/.cargo/bin"
 export PATH_PYENV="$HOME/.pyenv/shims"
@@ -22,3 +20,57 @@ export PATH="$PATH_LEM:$PATH_ADB:$UNITY_FPATH:$GOROOT/bin:$GOPATH/bin:$PATH_UNIT
 export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/lib"
 export CLOJARS_USER=""
 export CLOJARS_PASS=""
+
+
+# ================================
+# Java - TODO(pyoung): need to seperate...
+# ================================
+# export BOOT_JVM_OPTIONS="-client -Xms4G -Xmx4G -Xss16m -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xverify:none -XX:-OmitStackTraceInFastThrow -XX:+UseConcMarkSweepGC -XX:CICompilerCount=3 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=43210"
+
+
+
+
+# # Java Memory Architecture (Java Memory Model)
+# https://dzone.com/articles/java-memory-architecture-model-garbage-collection
+#
+#
+# # Java -option
+# ref: https://docs.oracle.com/javase/9/tools/java.htm
+# -client
+# Selects the Java HotSpot Client VM. A 64-bit capable JDK currently ignores this option and instead uses the Java Hotspot Server VM.
+# Only the Java HotSpot Server VM supports 64-bit operation and the -server option is implicit with the use of -d64. The -client option is ignored with the use of -d64.
+#
+# -Xms#{size}
+# Specifies the initial size, in bytes, of the memory allocation pool. This value must be a multiple of 1024 greater than 1 MB. Append the letter k or K to indicate kilobytes, or m or M to indicate megabytes.
+#
+# -Xmx#{size}
+# Specifies the maximum size, in bytes, of the memory allocation pool.
+#
+# -XX:CICompilerCount=threads
+# Sets the number of compiler threads to use for compilation. By default, the number of threads is set to 2 for the server JVM, to 1 for the client JVM,
+#
+#-Xss16m (default 1024K)
+# Sets the thread stack size (in bytes). Append
+#
+# -XX:+TieredCompilation
+# ????
+#
+# -XX:TieredStopAtLevel=1
+# ????
+#
+# -Xverify:none
+# Sets the mode of the bytecode verifier. (remove | all none)
+#
+# -XX:-OmitStackTraceInFastThrow
+# -XX:+OmitStackTraceInFastThrow - Turns on using preallocated exception (no stack trace generated) immediately
+# -XX:-OmitStackTraceInFastThrow - Disables using preallocated exceptions (stack traces are always generated)
+#
+# -XX:+AggressiveOpts (deprecated)
+# Enables the use of aggressive performance optimization features
+# Remove -XX:+AggressiveOpts : https://bugs.openjdk.java.net/browse/JDK-8150552
+#
+# -XX:+UseConcMarkSweepGC
+# Enables the use of the CMS garbage collector for the old generation. CMS is an alternative to the default garbage collector (G1)
+#
+# -XX:+CMSClassUnloadingEnabled (default +)
+# Enables class unloading when using the concurrent mark-sweep (CMS) garbage collector

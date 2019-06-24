@@ -1,6 +1,8 @@
 [user]
-	name = netpyoung
-	email = eunpyoung.kim@basecity.com
+	name = eunpyoung.kim
+	email = netpyoung@gmail.com
+[includeIf "gitdir:~/company/"]
+	path = .company_gitconfig
 [core]
 	excludesfile = /Users/pyoung/.gitignore_global
     editor = nvim

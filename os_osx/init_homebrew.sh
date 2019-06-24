@@ -31,7 +31,7 @@ brew install axel
 brew install fd
 brew install exa
 brew install bat
-
+brew install httpie # https://github.com/jakubroztocil/httpie
 
 brew cleanup
 
