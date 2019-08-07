@@ -49,6 +49,6 @@ antigen apply
 # ====================
 # Company
 # ====================
-[[ -f $HOME/.company_zshrc ]] && source $HOME/.company_zshrc
 [[ -f $HOME/.company_exports ]] && source $HOME/.company_exports
 [[ -f $HOME/.company_aliases ]] && source $HOME/.company_aliases
+[[ -f $HOME/.company_zshrc   ]] && source $HOME/.company_zshrc
