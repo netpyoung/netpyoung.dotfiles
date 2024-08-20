@@ -8,7 +8,7 @@ dotfiles
 ``` powershell
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-iex (new-object net.webclient).downloadstring('https://github.com/netpyoung/netpyoung.dotfiles/raw/master/os_win/init.ps1')
+iex (new-object net.webclient).downloadstring('https://github.com/netpyoung/netpyoung.dotfiles/raw/main/os_win/init.ps1')
 ```
 
 
@@ -16,7 +16,7 @@ iex (new-object net.webclient).downloadstring('https://github.com/netpyoung/netp
 
 ``` bash
 mkdir -p ~/netpyoung &&  cd ~/netpyoung
-curl -fsSL https://raw.githubusercontent.com/netpyoung/netpyoung.dotfiles/master/os_osx/init.zsh | zsh
+curl -fsSL https://raw.githubusercontent.com/netpyoung/netpyoung.dotfiles/main/os_osx/init.zsh | zsh
 ```
 
 | fsSL     |                                                                                     |
@@ -29,7 +29,7 @@ curl -fsSL https://raw.githubusercontent.com/netpyoung/netpyoung.dotfiles/master
 ## Linux(Ubuntu)
 
 ``` bash
-https://github.com/netpyoung/netpyoung.dotfiles/raw/master/os_linux/init.sh
+https://github.com/netpyoung/netpyoung.dotfiles/raw/main/os_linux/init.sh
 ```
 
 

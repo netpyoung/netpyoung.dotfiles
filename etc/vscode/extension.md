@@ -1,6 +1,7 @@
 
 - Theme
   - Material Icon Theme
+  - Atom One Light Theme
 - Dev
   - ShaderLabFormatter
   - Shader languages support for VS Code
