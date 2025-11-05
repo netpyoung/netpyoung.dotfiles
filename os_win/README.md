@@ -56,12 +56,40 @@
 ## program
 
 - [3RVX](https://3rvx.com/)
-- qbittorent
-- vlc
+- qbittorent 토렌트
+  - https://www.qbittorrent.org/
+- vlc 비디오 플레이어
+  - https://www.videolan.org/
 - wox
+  - https://github.com/Wox-launcher/Wox
+- everything 파일 찾기
+  - https://www.voidtools.com/ko-kr/
+- podman docker와 비슷한거
+  - https://podman.io/
+- VMWare
+  - https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
+  - https://blogs.vmware.com/cloud-foundation/2024/11/11/vmware-fusion-and-workstation-are-now-free-for-all-users/
+    - 2024년 11월 11일부터 이 강력한 데스크톱 하이퍼바이저 제품은 기업, 교육 기관, 개인 사용자 등 누구나 무료로 이용할 수 있습니다.
+
 
 ## git setting
 
 - <http://guides.beanstalkapp.com/version-control/git-on-windows.html>
 - <https://gitforwindows.org/>
 - <https://tortoisegit.org/download/>
+
+
+## 디버깅용
+
+- lucasg/Dependencies
+  - 네이티브 dll 디펜던시
+  - https://github.com/lucasg/Dependencies
+  - dll load dependencies issues 찾기
+- icsharpcode/ILSpy
+  - https://github.com/icsharpcode/ILSpy
+  - 닷넷 .NET Decompiler
+- 윈도우에서 우클릭 링크 생성
+  - https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html
+- oop7/rhashsum
+  - 해쉬 계산
+  - https://github.com/oop7/rhashsum
